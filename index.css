@@ -1,0 +1,33 @@
+.map-container {
+    background: #F0FFFF;
+}
+
+.county {
+    fill: #2f4f4f;
+    stroke: #778899;
+    stroke-width: 0.5;
+    stroke-dasharray: 1,1;
+}
+
+.state {
+    fill: none;
+    stroke: #778899;
+    stroke-width: 1;
+}
+
+
+.selected {
+    stroke: #2f4f4f;
+    stroke-width: 3;
+}
+
+
+#tooltip {
+    position: absolute;
+    z-index: 10;
+    visibility: hidden;
+    background: #000;
+    color: pink;
+    padding: 5px;
+    border-radius: 5px;
+}
